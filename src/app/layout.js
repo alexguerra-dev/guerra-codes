@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body className="bg-gray-100">{children}</body>
             {/* <SpeedInsights /> */}
             <Analytics />
         </html>
