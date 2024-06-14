@@ -14,9 +14,15 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="ml-4">
-                        <a href="/projects" className="p-2">
+                        <Link href="/projects" className="p-2">
                             Projects
-                        </a>
+                        </Link>
+                    </li>
+
+                    <li className="ml-4">
+                        <Link href="/blog" className="p-2">
+                            Blog
+                        </Link>
                     </li>
                 </ul>
             </div>
