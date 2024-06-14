@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
             </main>
 
-            <footer className="mt-auto pt-6 bg-green-400">
+            <footer className="mt-auto p-11 bg-green-400">
                 <p>© 2021 Alex Guerra</p>
             </footer>
         </div>
