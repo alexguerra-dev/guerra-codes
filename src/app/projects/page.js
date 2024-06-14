@@ -6,7 +6,11 @@ import Footer from '../ui/footer'
 const ProjectsPage = () => {
     return (
         <div className="flex flex-col min-h-screen">
-            <h1>ProjectsPage</h1>
+            <Header />
+            <main>
+                <h1>ProjectsPage</h1>
+            </main>
+            <Footer />
         </div>
     )
 }

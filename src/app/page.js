@@ -15,9 +15,7 @@ export default function Home() {
                     “One Ring to rule them all, One Ring to find them, One Ring
                     to bring them all and in the darkness bind them.”
                 </p>
-                <Link href="/people">
-                    <a>People</a> {/* This is a link to the People page */}{' '}
-                </Link>
+                <Link href="/people">People</Link>
 
                 <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
                     <div className="sm:flex sm:items-center px-6 py-4">
