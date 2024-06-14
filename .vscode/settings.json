@@ -1,5 +1,16 @@
 {
     "files.associations": {
         "*.css": "tailwindcss"
-    }
+    },
+    "cSpell.words": [
+        "adipiscing",
+        "amet",
+        "cursus",
+        "dapibus",
+        "elit",
+        "lacinia",
+        "nulla",
+        "nunc",
+        "tincidunt"
+    ]
 }
