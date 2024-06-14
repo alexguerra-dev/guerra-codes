@@ -1,23 +1,16 @@
-import Link from 'next/link.js'
-import Image from 'next/image.js'
+import Link from 'next/link'
+import Image from 'next/image'
 
-import Header from './ui/header.js'
-import Navbar from './ui/navbar.js'
+import Header from './ui/header'
+import Footer from './ui/footer'
+import Navbar from './ui/navbar'
 
 export default function Home() {
     return (
         <div className="flex flex-col min-h-screen">
-            <Header></Header>
+            <Header />
 
-            <main className="flex-grow">
-                <h1>Hello, World!</h1>
-                <Image
-                    src="/images/profile/woman.avif"
-                    alt=""
-                    width={200}
-                    height={200}
-                    className="rounded-lg shadow-md"
-                />
+            <main className="flex-grow container mx-auto">
                 <p>
                     “One Ring to rule them all, One Ring to find them, One Ring
                     to bring them all and in the darkness bind them.”
@@ -51,11 +44,22 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </main>
 
-            <footer className="mt-auto p-11 bg-green-400">
-                <p>© 2021 Alex Guerra</p>
-            </footer>
+                <Link
+                    href="/about"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                    About
+                </Link>
+
+                <Link
+                    href="/contact"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                    Contact
+                </Link>
+            </main>
+            <Footer />
         </div>
     )
 }
